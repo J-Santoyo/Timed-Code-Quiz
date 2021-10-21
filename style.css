@@ -1,9 +1,14 @@
+.btn-link {
+    color: #4E2DA3 !important;
+    text-align: left;
+}
+
 .begin-h1 {
     text-align: center;
     padding-top: 10%;
 }
 
-.btn, .btn-secondary, .btn-lg {
+.btn-secondary, .btn-lg {
     background-color: #4E2DA3 !important;
 }
 
@@ -18,5 +23,16 @@
     padding-block: 1%;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#timer-holder {
+    color: #4E2DA3;
+    text-align: right;
+    padding-right: 5%;
+padding-top: 0%;
+}
+
+.hide {
+    display: none;
 }
 
