@@ -4,6 +4,7 @@ var startBtn = document.getElementById("start-btn")
 var introEl = document.getElementById("intro")
 var questionsEl = document.getElementById("questions")
 var counter = 1
+// This function starts the timer.
 function startTimer() {
     var quizTimer = setInterval(function() {
         timeLeft = timeLeft-1
@@ -16,6 +17,7 @@ function startTimer() {
            
         },1000)
 }
+// This function starts the quiz and enables the startTimer function.
 function startQuiz() {
     console.log("hello")
     startTimer();
@@ -23,7 +25,7 @@ function startQuiz() {
     questionsEl.classList.remove("hide")
     
 }
-function question1() {
+function start () {
 
 }
 startBtn.addEventListener("click", startQuiz)

@@ -12,7 +12,6 @@
     background-color: #4E2DA3 !important;
 }
 
-
 .start {
     
 }
@@ -36,3 +35,24 @@ padding-top: 0%;
     display: none;
 }
 
+#question1 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    
+}
+
+/* .questions {
+    width:450px;
+    display: flex;
+    align-self:center;
+    align-content: left;
+    padding: 10px;
+    vertical-align: middle;
+} */
+
+.btn-group-vertical, .d-grid, .gap-2, .translate-middle {
+    text-align:center;
+    padding-block: 1%;
+    margin-left: 45%;
+}
