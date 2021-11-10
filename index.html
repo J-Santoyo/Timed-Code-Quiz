@@ -79,13 +79,20 @@
             </div>
         </div>
     </section>
+    <!-- Final Score Page -->
     <section class="hide" id="final-score">
         <h1>All done!</h1>
         <form action="script.js">
             <label for="initials">Enter Initials: </label>
-            <input type="text" id="initals" Name:="initials" />
+            <input type="text" id="initials" Name:="initials" />
         </form>
         <button type="button" class="btn btn-secondary btn-lg" id="submit-btn">Submit</button>
+    </section>
+    <section class="hide" id="highscores">
+        <div class="btn-group-vertical d-grid gap-2 translate-middle">
+            <button type="button" class="btn btn-secondary btn-lg" id="go-back-btn">Go Back</button>
+            <button type="button" class="btn btn-secondary btn-lg" id="clear-hs">Clear Highscores</button>
+        </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
