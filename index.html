@@ -13,62 +13,80 @@
 
 <body>
     <div id="timer-holder">Time: <span value="0" max="75" id="quiz-timer">75</span></div>
-    <div id="intro">
-        <div><button type="button" class="btn btn-link">View Highscores</button></div>
-        <h1 class="begin-h1"><strong>Coding Quiz Challenge</strong></h1>
-        <div class="start">
-            <p class="start-txt">Try to answer the following code-related questions within the time limit.
-                Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+    <section>
+        <div id="intro">
+            <div><button type="button" class="btn btn-link">View Highscores</button></div>
+            <h1 class="begin-h1"><strong>Coding Quiz Challenge</strong></h1>
+            <div class="start">
+                <p class="start-txt">Try to answer the following code-related questions within the time limit.
+                    Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+            </div>
+            <div class="text-center"><button type="button" class="btn btn-secondary btn-lg" id="start-btn">Start
+                    Quiz</button></div>
         </div>
-        <div class="text-center"><button type="button" class="btn btn-secondary btn-lg" id="start-btn">Start
-                Quiz</button></div>
-    </div>
-    <!-- First question and answer buttons -->
-    <div class="hide" id="questions">
-        <h1 id="question1">Commonly used data types DO NOT include:</h1>
-        <div class="btn-group-vertical d-grid gap-2 translate-middle">
-            <button type="button" class="btn btn-secondary btn-lg" id="answer1a" >Strings</button><br>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer1b">Booleans</button><br>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer1c">Alerts</button><br>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer1d">Numbers</button>
+    </section>
+    <section>
+        <!-- First question and answer buttons -->
+        <div class="hide" id="questions">
+            <h1 id="question1">Commonly used data types DO NOT include:</h1>
+            <div class="btn-group-vertical d-grid gap-2 translate-middle">
+                <button type="button" class="btn btn-secondary btn-lg" id="answer1a">Strings</button><br>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer1b">Booleans</button><br>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer1c">Alerts</button><br>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer1d">Numbers</button>
+            </div>
         </div>
-    </div>
-    <div class="hide">
-        <h1 id="question2">The condition in an if / else statement is enclosed within ______.</h1>
-        <div class="btn-group-vertical d-grid gap-2 translate-middle">
-            <button type="button" class="btn btn-secondary btn-lg" id="answer2a">Quotes</button><br>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer2b">Curly Brackets</button><br>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer2c">Parenthesis</button><br>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer2d">Square Brackets</button>
+        <!-- Second question and answer buttons -->
+        <div class="hide">
+            <h1 id="question2">The condition in an if / else statement is enclosed within ______.</h1>
+            <div class="btn-group-vertical d-grid gap-2 translate-middle">
+                <button type="button" class="btn btn-secondary btn-lg" id="answer2a">Quotes</button><br>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer2b">Curly Brackets</button><br>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer2c">Parenthesis</button><br>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer2d">Square Brackets</button>
+            </div>
         </div>
-    </div>
-    <div class="hide">
-        <h1 id="question3">Arrays in JavaScript can be used to store _____.</h1>
-        <div class="btn-group-vertical d-grid gap-2 translate-middle">
-            <button type="button" class="btn btn-secondary btn-lg" id="answer3a">Numbers and Strings</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer3b">Other Arrays</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer3c">Booleans</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer3d">All of the Above</button>
+        <!-- Third question and answer buttons -->
+        <div class="hide">
+            <h1 id="question3">Arrays in JavaScript can be used to store _____.</h1>
+            <div class="btn-group-vertical d-grid gap-2 translate-middle">
+                <button type="button" class="btn btn-secondary btn-lg" id="answer3a">Numbers and Strings</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer3b">Other Arrays</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer3c">Booleans</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer3d">All of the Above</button>
+            </div>
         </div>
-    </div>
-    <div class="hide">
-        <h1 id="question4">String values must be enclosed within _____ when being assigned to variables.</h1>
-        <div class="btn-group-vertical d-grid gap-2 translate-middle">
-            <button type="button" class="btn btn-secondary btn-lg" id="answer4a">Commas</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer4b">Curly Brackets</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer4c">Quotes</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer4d">Parenthesis</button>
+        <!-- Fourth question and answer buttons -->
+        <div class="hide">
+            <h1 id="question4">String values must be enclosed within _____ when being assigned to variables.</h1>
+            <div class="btn-group-vertical d-grid gap-2 translate-middle">
+                <button type="button" class="btn btn-secondary btn-lg" id="answer4a">Commas</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer4b">Curly Brackets</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer4c">Quotes</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer4d">Parenthesis</button>
+            </div>
         </div>
-    </div>
-    <div class="hide">
-        <h1 id="question5">A very useful tool used during development and debugging for printing content to the debugger is:</h1>
-        <div class="btn-group-vertical d-grid gap-2 translate-middle">
-            <button type="button" class="btn btn-secondary btn-lg" id="answer5a">JavaScript</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer5b">Terminal/Bash</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer5c">for loops</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="answer5d">console.log</button>
+        <!-- Fifth question and answer buttons -->
+        <div class="hide">
+            <h1 id="question5">A very useful tool used during development and debugging for printing content to the
+                debugger
+                is:</h1>
+            <div class="btn-group-vertical d-grid gap-2 translate-middle">
+                <button type="button" class="btn btn-secondary btn-lg" id="answer5a">JavaScript</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer5b">Terminal/Bash</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer5c">for loops</button>
+                <button type="button" class="btn btn-secondary btn-lg" id="answer5d">console.log</button>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="hide" id="final-score">
+        <h1>All done!</h1>
+        <form action="script.js">
+            <label for="initials">Enter Initials: </label>
+            <input type="text" id="initals" Name:="initials" />
+        </form>
+        <button type="button" class="btn btn-secondary btn-lg" id="submit-btn">Submit</button>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
