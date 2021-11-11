@@ -4,6 +4,21 @@ var startBtn = document.getElementById("start-btn")
 var introEl = document.getElementById("intro")
 var questionsEl = document.getElementById("questions")
 var counter = 1
+
+// answer buttons for question one
+var answerA1 = document.getElementById("answer1a")
+var answerB1 = document.getElementById("answer1b")
+var answerC1 = document.getElementById("answer1c")
+var answerD1 = document.getElementById("answer1d")
+
+// answer buttons for question two
+var answerA2 = document.getElementById("answer2a")
+var answerB2 = document.getElementById("answer2b")
+var answerC2 = document.getElementById("answer2c")
+var answerD2 = document.getElementById("answer2d")
+
+// answer 
+
 // This function starts the timer.
 function startTimer() {
     var quizTimer = setInterval(function() {
