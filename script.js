@@ -23,6 +23,11 @@ var answerB3 = document.getElementById("answer3b");
 var answerC3 = document.getElementById("answer3c");
 var answerD3 = document.getElementById("answer3d");
 
+// answer buttons for question four
+var answerA4 = document.getElementById("answer4a");
+var answerB4 = document.getElementById("answer4b");
+var answerC4 = document.getElementById("answer4c");
+var answerD4 = document.getElementById("answer4d");
 
 
 // This function starts the timer.
