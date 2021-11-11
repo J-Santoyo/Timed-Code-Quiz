@@ -29,6 +29,11 @@ var answerB4 = document.getElementById("answer4b");
 var answerC4 = document.getElementById("answer4c");
 var answerD4 = document.getElementById("answer4d");
 
+// answer buttons for question five
+var answerA5 = document.getElementById("answer5a");
+var answerB5 = document.getElementById("answer5b");
+var answerC5 = document.getElementById("answer5c");
+var answerD5 = document.getElementById("answer5d");
 
 // This function starts the timer.
 function startTimer() {
